@@ -54,7 +54,7 @@ jobs:
           plugin_languages_ignored: >-
             scss, html, css, ruby, gnuplot, json
           plugin_languages_recent_days: 365
-          plugin_stars: yes
-          plugin_stars_limit: 3
+          plugin_repositories: yes
+          plugin_repositories_featured: IF-LAB-PKU/Pyramid-Forcing, winbeau/t2v-eval, XjuSelab/xju-feiyue
           config_padding: 0, 8 + 11%
-          config_order: languages, stars
+          config_order: languages, repositories
