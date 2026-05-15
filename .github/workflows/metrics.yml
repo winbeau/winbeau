@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: left
-        uses: gh-metrics/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: gist
@@ -33,7 +33,7 @@ jobs:
           config_order: base.header, introduction, isocalendar, habits
 
       - name: right
-        uses: gh-metrics/metrics@master
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: gist
