@@ -49,7 +49,7 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_other: yes
           plugin_languages_ignored: >-
-            scss, html, css, ruby, gnuplot, json
+            scss, html, css, ruby, gnuplot, json, jupyter notebook
           plugin_languages_recent_days: 365
           plugin_repositories: yes
           plugin_repositories_featured: IF-LAB-PKU/Pyramid-Forcing, winbeau/t2v-eval, XjuSelab/xju-feiyue
