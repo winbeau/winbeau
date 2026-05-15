@@ -19,5 +19,11 @@
 </p>
 
 <p align="center">
-  <img width="90%" align="center" src="https://ghchart.rshah.org/winbeau" />
+  <a href="#">
+    <img width="45%" align="center" src="https://gist.githubusercontent.com/winbeau/868fd87bafd05ecce9c60cf41bb8384c/raw/github-metrics.svg" />
+  </a>
+    &emsp;
+  <a href="#">
+    <img width="45%" align="center" src="https://gist.githubusercontent.com/winbeau/111ec5f3bccd7bc663dd54935fb07744/raw/github-metrics.svg" />
+  </a>
 </p>
