@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hi, I'm winbeau</h1>
+<h1 align="center">👋 Hi, I'm Wenbiao Zhao</h1>
 
 <p align="center">
   <em>Autoregressive video generation — <b>AR-DiT</b> now, exploring <b>AR-MoT</b> & <b>WMA</b>.</em>
