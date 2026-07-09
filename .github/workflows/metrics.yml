@@ -16,6 +16,11 @@ jobs:
           output_action: gist
           committer_gist: 868fd87bafd05ecce9c60cf41bb8384c
 
+          # isocalendar 偶发 GitHub API 401 时:不发布坏图、先自动重试整轮渲染
+          plugins_errors_fatal: yes
+          retries: 3
+          retries_delay: 20
+
           user: winbeau
           template: classic
           base: header, metadata
