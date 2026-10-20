@@ -41,6 +41,10 @@ jobs:
           base: ""
           config_timezone: Asia/Shanghai
           commits_authoring: winbeau, geneva4869@163.com
+          # The default batch of 100 repositories now times out (502/504) on the
+          # GitHub GraphQL API, which silently leaves the languages plugin with
+          # no data. Keep this low enough for the query to return.
+          repositories_batch: 30
 
           plugin_languages: yes
           plugin_languages_colors: github
